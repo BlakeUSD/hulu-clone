@@ -9,4 +9,4 @@ function HeaderItem({ Icon, title }) {
     )
 }
 
-export default HeaderItem
+export default HeaderItem;

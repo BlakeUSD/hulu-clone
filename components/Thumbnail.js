@@ -18,6 +18,7 @@ const Thumbnail = forwardRef(({ result, ref }) => {
                 }
                 height={1080}
                 width={1920}
+                alt="movie thumbnail"
             />
 
             <div className="p-2">
@@ -35,4 +36,4 @@ const Thumbnail = forwardRef(({ result, ref }) => {
     )
 })
 
-export default Thumbnail
+export default Thumbnail;

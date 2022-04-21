@@ -1,4 +1,3 @@
-// const API_KEY = process.env.API_KEY;
 const API_KEY = "77e879a7c36954832c204c0c4ef07af2";
 
 export default {

@@ -2,7 +2,10 @@ import Image from "next/image"
 import { ThumbUpIcon } from "@heroicons/react/outline"
 import { forwardRef } from "react"
 
-const Thumbnail = forwardRef(({ result, ref }) => {
+// the named function "fixError" is used to prevent eslint error on deployment
+// for not having a named function when using ES6 syntax 
+
+const Thumbnail = forwardRef(function fixError({ result, ref }) {
     const BASE_URL = "https://image.tmdb.org/t/p/original/";
 
     return (

@@ -1,34 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hulu clone
+This is a responsive and functional Hulu clone created with NextJS. Highlights include:
+
+- Implemented TMDB API to return genuine movie data and statistics
+- Included filtering by genre, flexbox, css-grid, and heroicon technologies
+- Included Tailwind CSS best practices
+
+## Built With
+
+- NextJS
+- JavaScript
+- HTML
+- Tailwind CSS
+- Yarn
+- Git
+- [Hero Icons](https://heroicons.com/)
+
+## Project view
+![Screen](https://www.dellanoblake.com/assets/hulu%20clone%20mockup.png)
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running follow these simple steps.
 
-```bash
-npm run dev
-# or
-yarn dev
+### Prerequisites
+
+- A web browser (e.g. Mozilla Firefox, Google Chrome etc.)
+- git: This is a version control system used for source code management.
+- A text editor (e.g Visual Studio Code (recommended), Sublime Text, Atom etc.)
+- Live Server: A web extension utility for Visual Studio Code that helps you live reload feature for dynamic pages.
+
+## Live Demo
+
+- Click [here](https://hulu-clone-blakeusd.vercel.app/) to view the live demo.
+
+### Setup
+
+- With git, clone the code to your machine, or download a ZIP of all the files directly.
+- [Download the ZIP file from this location](https://github.com/BlakeUSD/hulu-clone/archive/refs/heads/main.zip) or run the following git command to clone the files to your machine:
+
+```
+git clone https://github.com/BlakeUSD/hulu-clone.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Once the files are on your machine, open the **hulu-clone** folder in [Visual Studio Code](https://code.visualstudio.com/download).
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Deploying
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- After opening the files in Visual Studio Code, open the **VS Code** integrated terminal and run ``` yarn install ``` to install the dependencies used.
+- Run ``` yarn run build ``` to bundle the **JavaScript** files with Webpack.
+- Run ``` yarn run dev ``` to launch the files with Webpack Dev Server.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Authors
 
-## Learn More
+👤 **Dellano Blake**
 
-To learn more about Next.js, take a look at the following resources:
+- LinkedIn: [Dellano Blake](https://www.linkedin.com/in/dellano-b-032a9b1a4/)
+- GitHub: [@BlakeUSD](https://github.com/blakeusd)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤝 Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Contributions, issues, and feature requests are welcome!
 
-## Deploy on Vercel
+## Show your support
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Give a ⭐️ if you like this project!
